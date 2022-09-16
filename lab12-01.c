@@ -12,15 +12,14 @@
 #include "lab12functs.h"
 
 int main() {
-    int integer;
+    int inputValue;
     int factorial;
 
     printf("Give me an integer: ");
-    scanf("%d", &integer);
+    scanf("%d", &inputValue);
 
-    
-    factorial = numFactorial(integer);
-    printf("The factorial of %d is %d.\n", integer, factorial);
+    factorial = numFactorial(inputValue);
+    printf("The factorial of %d is %d.\n", inputValue, factorial);
 
     return 0;
 }
