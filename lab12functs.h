@@ -5,6 +5,8 @@
  * Project: Iteration (for)
  * Purpose: 
  * =========================================================== */
+#ifndef LAB12FUNCTS_H
+#define LAB12FUNCTS_H
 
 /**
 * @brief numFactorial() calculates the factorial of a number.
@@ -32,3 +34,5 @@ int isPrime(int inputValue);
 * @post N/A
 */
 void floydsTriangle(int inputValue);
+
+#endif
